@@ -5,27 +5,35 @@ body {
     color: #333;
   }
   
-  #content .info {
+  content .info {
     height: 20px;
   }
   
-  #content .map path {
-    fill: #aaa;
+  content .map path {
     stroke: #fff;
   }
   
-  #content .bounding-box rect {
+  content .bounding-box rect {
     fill: none;
     stroke: #333;
     stroke-dasharray: 2,1;
   }
   
-  #content .centroid {
+  content .centroid {
     display: none;
   }
   
-  #content .centroid circle {
+  content .centroid circle {
     fill: red;
   }
   
-  
+  svg {
+    text-align: center;
+  }  
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }

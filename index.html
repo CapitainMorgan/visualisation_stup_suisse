@@ -6,15 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css"
 </head>
-<body
-  <div id="content">
-    <div class="info">Hover over a country</div>
+<body>
+  <nav>
+    <!--liste des années-->
+    <select name="year" id="year">
+      <option value="2017">2017</option>
+      <option value="2012">2012</option>
+      <option value="2007">2007</option>
+      <option value="2002">2002</option>
+    </select>
+    <!--Choix du genre-->
+    <select name="gender" id="gender">
+      <option value="Total">Total</option>
+      <option value="Hommes">Hommes</option>
+      <option value="Femmes">Femmes</option>
+    </select>
+    <!--Choix du type de données-->
+    <select name="type" id="type">
+      <option value="0">Au moins une fois par mois</option>
+      <option value="1">Au moins une fois au cours des 12 derniers mois</option>
+    </select>
+  </nav>
+  <content>
+    
+    
     <svg width="620px" height="600px">
       <g class="map"></g>
       <g class="bounding-box"><rect></rect></g>
       <g class="centroid"><circle r="4"></circle></g>
     </svg>
-  </div>
+  </content>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.3/d3.min.js"></script>
   <script src="scripts/script.js"></script>
