@@ -2,38 +2,38 @@
 body {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-size: 14px;
-    color: #333;
-  }
-  
-  content .info {
-    height: 20px;
+    color: #333;    
+    margin-left: 75px;
+    margin-right: 75px;
   }
   
   content .map path {
-    stroke: #fff;
-  }
-  
-  content .bounding-box rect {
-    fill: none;
-    stroke: #333;
-    stroke-dasharray: 2,1;
-  }
-  
-  content .centroid {
-    display: none;
-  }
-  
-  content .centroid circle {
-    fill: red;
+    stroke: #6e6e6e42;
   }
   
   svg {
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }  
 
-  nav {
+  nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0 20px;
+  }
+
+  nav select{
+    margin: 0 20px;
+  }
+
+  .canabisForm, .otherForm, .otherRegion, .canabisRegion {
+    width: 50%;
+  }
+
+  .formation, .region{
+    display: flex;
+  }
+
+  footer, header{
+    text-align: center;
   }

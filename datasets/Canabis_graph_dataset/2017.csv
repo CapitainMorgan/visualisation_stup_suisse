@@ -1,0 +1,46 @@
+﻿Gender,Def,Nom,Proportion de la population en %,Limite inférieure de l'intervalle de confiance,Limite supérieure de l'intervalle de confiance,n,Proportion de la population en %,Limite inférieure de l'intervalle de confiance,Limite supérieure de l'intervalle de confiance,n
+Total,Niveau de formation,Scolarité obligatoire,4.1,3.3,5,3316,8.3,7.2,9.4,3316
+Total,Niveau de formation,Degré secondaire II,4.4,3.8,5,7946,7.6,6.8,8.4,7946
+Total,Niveau de formation,Degré tertiaire,3.4,2.8,4,5656,7.6,6.7,8.5,5656
+Total,Région linguistique,Allemand/Rhéto-roman,3.7,3.3,4.2,11169,7.4,6.8,8,11169
+Total,Région linguistique,Français,4.9,4.2,5.7,4620,8.9,7.9,9.9,4620
+Total,Région linguistique,Italien,2.3,1.3,3.2,1190,5.6,4.1,7.1,1190
+,Région d'habitation,,.,.,.,.,.,.,.,.
+,,,.,.,.,.,.,.,.,.
+,,Urbain,4.1,3.6,4.6,9944,8.1,7.5,8.8,9944
+,,Intermédiaire,3.9,3,4.7,3796,7,6,8.1,3796
+,,Rural,3.5,2.7,4.4,3239,6.8,5.6,7.9,3239
+,Nationalité,Suisses,4.5,4,5,12687,8.5,7.9,9.1,12687
+,,Étrangers,2.6,2,3.3,4291,5.6,4.7,6.5,4291
+,Exercice d’une activité rémunérée,Personnes actives occupées,3.7,3.3,4.1,13664,7.4,6.8,8,13664
+,,Personnes non actives occupées,5.2,4.2,6.1,3309,9.1,7.8,10.3,3309
+Femmes,Niveau de formation,Scolarité obligatoire,2.6,1.7,3.5,1813,5.6,4.4,6.9,1813
+Femmes,Niveau de formation,Degré secondaire II,2.5,1.9,3.2,4439,4.7,3.9,5.6,4439
+Femmes,Niveau de formation,Degré tertiaire,1.6,1,2.2,2655,5.3,4.3,6.4,2655
+Femmes,Région linguistique,Allemand/Rhéto-roman,2.2,1.7,2.6,5867,4.9,4.2,5.7,5867
+Femmes,Région linguistique,Français,2.7,1.9,3.4,2474,5.5,4.5,6.6,2474
+Femmes,Région linguistique,Italien,1.1,0.1,2.1,605,4.6,2.7,6.5,605
+Femmes,Région d'habitation,,.,.,.,.,.,.,.,.
+Femmes,,,.,.,.,.,.,.,.,.
+Femmes,,Urbain,2.6,2,3.1,5245,5.7,4.9,6.5,5245
+Femmes,,Intermédiaire,1.9,1.2,2.7,1949,4.5,3.4,5.7,1949
+Femmes,,Rural,1.3,0.7,1.9,1752,3.4,2.4,4.4,1752
+Femmes,Nationalité,Suisses,2.6,2.1,3.1,6840,5.7,5,6.4,6840
+Femmes,,Étrangers,1.2,0.7,1.8,2105,3.4,2.5,4.4,2105
+Femmes,Exercice d’une activité rémunérée,Personnes actives occupées,1.9,1.5,2.3,6815,4.8,4.1,5.4,6815
+Femmes,,Personnes non actives occupées,3.5,2.4,4.5,2127,6.2,4.9,7.6,2127
+Hommes,Niveau de formation,Scolarité obligatoire,5.8,4.3,7.2,1503,11.2,9.3,13.1,1503
+Hommes,Niveau de formation,Degré secondaire II,6.4,5.4,7.5,3507,10.7,9.4,12.1,3507
+Hommes,Niveau de formation,Degré tertiaire,4.9,3.8,5.9,3001,9.4,8.1,10.8,3001
+Hommes,Région linguistique,Allemand/Rhéto-roman,5.3,4.5,6.1,5302,9.8,8.8,10.9,5302
+Hommes,Région linguistique,Français,7.2,5.9,8.6,2146,12.2,10.5,13.8,2146
+Hommes,Région linguistique,Italien,3.3,1.7,4.9,585,6.5,4.3,8.8,585
+Hommes,Région d'habitation,,.,.,.,.,.,.,.,.
+Hommes,,,.,.,.,.,.,.,.,.
+Hommes,,Urbain,5.6,4.8,6.5,4699,10.6,9.5,11.7,4699
+Hommes,,Intermédiaire,5.7,4.2,7.1,1847,9.4,7.6,11.1,1847
+Hommes,,Rural,5.8,4.2,7.5,1487,10.2,8.1,12.3,1487
+Hommes,Nationalité,Suisses,6.4,5.6,7.2,5847,11.4,10.4,12.4,5847
+Hommes,,Étrangers,3.9,2.8,5,2186,7.5,6,9,2186
+Hommes,Exercice d’une activité rémunérée,Personnes actives occupées,5.3,4.6,6,6849,9.7,8.8,10.6,6849
+Hommes,,Personnes non actives occupées,7.8,5.9,9.7,1182,13.5,11.2,15.9,1182

@@ -7,7 +7,4 @@ Nous avons décidé d'orienter notre projet sur la consommation de substance ain
 ## Sources
 
 -	https://ind.obsan.admin.ch/fr/indicator/monam/consommation-de-cannabis-age-15-64
--	https://ind.obsan.admin.ch/fr/indicator/monam/consommation-de-drogue-par-voie-intraveineuse
--	https://ind.obsan.admin.ch/fr/indicator/monam/consommation-de-drogue-par-voie-intraveineuse
 -	https://ind.obsan.admin.ch/fr/indicator/monam/consommation-de-substances-illegales-hors-cannabis-age-15-64
--	https://ind.obsan.admin.ch/fr/indicator/monam/consommation-de-substances-comportement-a-risque-multiple-age-15-74
