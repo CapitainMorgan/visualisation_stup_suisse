@@ -13,9 +13,9 @@ Nous avons décidé d'orienter notre projet sur la consommation de substance ain
 
 Il faut installer : https://nodejs.org/en
 Dans le dossier du projet (ou il y a le index.html) il faut exécuter la commande 
-'''npm install -g http-server''' pour installer le server http.
+'npm install -g http-server' pour installer le server http.
 puis 
-'''http-server &''' pour lancer le server.
+'http-server &' pour lancer le server.
 
 ## Sources
 
