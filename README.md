@@ -6,8 +6,8 @@ Nous avons décidé d'orienter notre projet sur la consommation de substance ain
 
 ## Captures d'écran
 
-![alt text]("-./images/capture1.png")
-![alt text]("./images/capture2.png")
+![alt text]("https://github.com/CapitainMorgan/visualisation_stup_suisse/blob/375cad3e96498ee408eb974df802b851164b3b50/images/capture1.png")
+![alt text]("https://github.com/CapitainMorgan/visualisation_stup_suisse/blob/375cad3e96498ee408eb974df802b851164b3b50/images/capture2.png")
 
 ## Installation
 
