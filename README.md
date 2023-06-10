@@ -6,8 +6,8 @@ Nous avons décidé d'orienter notre projet sur la consommation de substance ain
 
 ## Captures d'écran
 
-![alt text]("images/capture1.png")
-![alt text]("images/capture2.png")
+![alt text]("-./images/capture1.png")
+![alt text]("./images/capture2.png")
 
 ## Installation
 
