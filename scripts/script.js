@@ -6,11 +6,12 @@ let year = 2017;
 let gender = "Total";
 let type = 0;
 let datapath =
-  "./datasets/Canabis_map_dataset/" + year + "-"+  type + ".csv";
+  "./datasets/Cannabis_map_dataset/" + year + "-"+  type + ".csv";
 const types = [
   "Au moins une fois par mois",
   "Au moins une fois au cours des 12 derniers mois",
 ];
+
 
 let currentMapData = [];
 
@@ -63,7 +64,7 @@ d3.select("#year").on("change", function () {
   let value = d3.select(this).property("value");
   year = value;
   datapath =
-    "./datasets/Canabis_map_dataset/" +
+    "./datasets/Cannabis_map_dataset/" +
     year +
 	"-"+
 	type +
@@ -81,7 +82,7 @@ d3.select("#type").on("change", function () {
   let value = d3.select(this).property("value");
   type = value;
   datapath =
-    "./datasets/Canabis_map_dataset/" +
+    "./datasets/Cannabis_map_dataset/" +
     year +
 	"-"+
 	type +
@@ -116,8 +117,8 @@ function showData() {
 
   //show data on bar chart
   //https://d3-graph-gallery.com/graph/barplot_button_data_csv.html
-  showDataGraph("./datasets/Canabis_graph_dataset/" + year + ".csv", ".canabisForm", "Niveau de formation");
-  showDataGraph("./datasets/Canabis_graph_dataset/" + year + ".csv", ".canabisRegion", "Région linguistique");
+  showDataGraph("./datasets/Cannabis_graph_dataset/" + year + ".csv", ".cannabisForm", "Niveau de formation");
+  showDataGraph("./datasets/Cannabis_graph_dataset/" + year + ".csv", ".cannabisRegion", "Région linguistique");
   showDataGraph("./datasets/Other_graph_dataset/" + year + ".csv", ".otherForm", "Niveau de formation");
   showDataGraph("./datasets/Other_graph_dataset/" + year + ".csv", ".otherRegion", "Région linguistique");
 }
@@ -157,7 +158,7 @@ function showDataGraph(dataPath, svgClass, defName) {
 	x.domain(dataChart.map(function (d) { return d["Nom"]; }));
 	xAxis.transition().duration(1000).call(d3.axisBottom(x))
 
-	y.domain([0, d3.max(dataChart, function (d) { return +d["Proportion de la population en %"]; })]);
+	y.domain([0, d3.max(dataChart, function (d) { return +d["Proportion de la population en %"] + 2; })]);
 	yAxis.transition().duration(1000).call(d3.axisLeft(y));
 
 	let u = svg.selectAll("rect")
@@ -172,7 +173,23 @@ function showDataGraph(dataPath, svgClass, defName) {
 			.attr("y", function (d) { return y(d["Proportion de la population en %"]); })
 			.attr("width", x.bandwidth())
 			.attr("height", function (d) { return height - y(d["Proportion de la population en %"]); })
-			.attr("fill", "#39e600");
+			.attr("fill", "#fff")
+      .attr("stroke", "#000")
+
+  //add value on bar
+  svg.selectAll(".text")
+  .data(dataChart)
+  .enter()
+  .append("text")
+  .attr("class", "label")
+  .attr("x", (function (d) { return x(d["Nom"]) + x.bandwidth() / 2; }))
+  .attr("y", function (d) { return y(d["Proportion de la population en %"]) - 15 ; })
+  .attr("dy", ".75em")
+  .text(function (d) { return d["Proportion de la population en %"] + "%"; })
+  .attr("fill", "#000")
+  .attr("text-anchor", "middle");
+
+      
   });
 }
 
